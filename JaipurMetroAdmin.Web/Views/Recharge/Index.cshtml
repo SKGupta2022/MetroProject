@@ -1,0 +1,122 @@
+﻿@model JaipurMetroAdmin.Models.UserDetails;
+<div class="hold-transition sidebar-mini">
+    <div class="wrapper">
+        <div class="content-wrapper">
+            <section class="content-header">
+                <div class="container-fluid">
+                    <div class="row mb-2">
+                        <div class="col-sm-6">
+                            <h1>User Dashboard</h1>
+                        </div>
+                        <div class="col-sm-6">
+                            <ol class="breadcrumb float-sm-right">
+                                <!-- <li class="breadcrumb-item"><a href="#">Details</a></li>
+                                <li class="breadcrumb-item active">Recharge</li> -->
+                            </ol>
+                        </div>
+                    </div>
+                </div><!-- /.container-fluid -->
+            </section>
+            <section class="content">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="callout callout-info">
+                                <h5><i class="fas fa-info"></i> Current Status:</h5>
+                                Balance : Rs @Model.cardDetails.PendingAmt
+                            </div>
+                            <!-- Main content -->
+                            <div class="invoice p-3 mb-3">
+                                <!-- title row -->
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h4>
+                                            <i class="fas fa-globe"></i> @Model.Name
+                                        </h4>
+                                        <small class="float-right">Date: @Convert.ToDateTime(DateTime.Now).ToString("MM/dd/yyyy")</small>
+                                    </div>
+                                    <!-- /.col -->
+                                </div>
+                                <!-- info row -->
+                                <div class="row invoice-info">
+                                    <div class="col-sm-4 invoice-col">
+                                        <strong>Address</strong><br>
+                                        <address>
+                                            @Model.Address<br>
+                                            @Model.City, @Model.State<br>
+                                            Pincode : @Model.Pincode<br>
+                                            Phone: @Model.Mobile<br>
+                                            Email: @Model.Email
+                                        </address>
+                                    </div>
+                                    <!-- /.col -->
+                                    <div class="col-sm-4 invoice-col">
+                                        <address>
+                                        </address>
+                                    </div>
+                                    <!-- /.col -->
+                                    <div class="col-sm-4 invoice-col">
+                                        <br />
+
+                                        <b>
+                                            Card No : @Model.cardDetails.CardNo
+                                        </b><br>
+                                        <b>Total Recharge : </b> Rs. @Model.cardDetails.TotalRechargeAmt<br />
+                                        <b>Total Expenses :</b> Rs. @Model.cardDetails.TotalRechargeExpenses<br />
+                                        <b>Total Remaining :</b> Rs. @Model.cardDetails.PendingAmt
+
+                                    </div>
+                                    <!-- /.col -->
+                                </div>
+                                <!-- /.row -->
+                                <!-- Table row -->
+                                <div class="row">
+                                    <div class="col-12 table-responsive">
+                                        <table class="table table-striped">
+                                            <thead>
+                                                <tr>
+                                                    <th>Date</th>
+                                                    @*<th>Expire From</th>
+                                                        <th>Expire To</th>*@
+                                                    <th>Amount</th>
+                                                    <th>Status</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                @foreach (var recharge in Model.RechargePaymentLst)
+                                                {
+                                                    <tr>
+                                                        <td>@Convert.ToDateTime(recharge.RechargeDate).ToString("dd/MM/yyyy")</td>
+                                                        @*<td>@Convert.ToDateTime(recharge.ExpiryFrom).ToString("MM/dd/yyyy")</td>
+                                                            <td>@Convert.ToDateTime(recharge.ExpiryTo).ToString("MM/dd/yyyy")</td>*@
+                                                        <td> Rs. @recharge.Amount</td>
+                                                        <td>@recharge.RechargeStatus</td>
+                                                    </tr>
+                                                }
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <!-- /.col -->
+                                </div>
+                                <!-- /.row -->
+                                <!-- /.row -->
+                                <!-- this row will not appear when printing -->
+                                <div class="row no-print">
+                                    <div class="col-3">
+                                        <a class="btn btn-success float-left" asp-area="" asp-controller="RechargeCard" asp-action="index">Add New Card</a>
+                                    </div>
+                                    <div class="col-9">
+                                        <a class="btn btn-success float-right" asp-area="" asp-controller="Recharge" asp-action="index">Recharge</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /.invoice -->
+                        </div><!-- /.col -->
+                    </div><!-- /.row -->
+                </div><!-- /.container-fluid -->
+            </section>
+            <!-- /.content -->
+        </div>
+    </div>
+</div>

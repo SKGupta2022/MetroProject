@@ -1,0 +1,12 @@
+E:\Sushil Gupta\JaipurMetroAdmin\JaipurMetroAdmin.Framework\bin\Debug\net5.0\JaipurMetroAdmin.Framework.deps.json
+E:\Sushil Gupta\JaipurMetroAdmin\JaipurMetroAdmin.Framework\bin\Debug\net5.0\JaipurMetroAdmin.Framework.dll
+E:\Sushil Gupta\JaipurMetroAdmin\JaipurMetroAdmin.Framework\bin\Debug\net5.0\ref\JaipurMetroAdmin.Framework.dll
+E:\Sushil Gupta\JaipurMetroAdmin\JaipurMetroAdmin.Framework\bin\Debug\net5.0\JaipurMetroAdmin.Framework.pdb
+E:\Sushil Gupta\JaipurMetroAdmin\JaipurMetroAdmin.Framework\obj\Debug\net5.0\JaipurMetroAdmin.Framework.GeneratedMSBuildEditorConfig.editorconfig
+E:\Sushil Gupta\JaipurMetroAdmin\JaipurMetroAdmin.Framework\obj\Debug\net5.0\JaipurMetroAdmin.Framework.AssemblyInfoInputs.cache
+E:\Sushil Gupta\JaipurMetroAdmin\JaipurMetroAdmin.Framework\obj\Debug\net5.0\JaipurMetroAdmin.Framework.AssemblyInfo.cs
+E:\Sushil Gupta\JaipurMetroAdmin\JaipurMetroAdmin.Framework\obj\Debug\net5.0\JaipurMetroAdmin.Framework.csproj.CoreCompileInputs.cache
+E:\Sushil Gupta\JaipurMetroAdmin\JaipurMetroAdmin.Framework\obj\Debug\net5.0\JaipurMetroAdmin.Framework.dll
+E:\Sushil Gupta\JaipurMetroAdmin\JaipurMetroAdmin.Framework\obj\Debug\net5.0\ref\JaipurMetroAdmin.Framework.dll
+E:\Sushil Gupta\JaipurMetroAdmin\JaipurMetroAdmin.Framework\obj\Debug\net5.0\JaipurMetroAdmin.Framework.pdb
+E:\Sushil Gupta\JaipurMetroAdmin\JaipurMetroAdmin.Framework\obj\Debug\net5.0\JaipurMetroAdmin.Framework.csproj.AssemblyReference.cache

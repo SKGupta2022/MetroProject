@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JaipurMetroAdmin.Commom\JaipurMetroAdmin.Commom.csproj" />
+    <ProjectReference Include="..\JaipurMetroAdmin.Framework\JaipurMetroAdmin.Framework.csproj" />
+    <ProjectReference Include="..\JaipurMetroAdmin.Models\JaipurMetroAdmin.Models.csproj" />
+  </ItemGroup>
+
+</Project>

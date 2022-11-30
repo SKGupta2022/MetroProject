@@ -1,0 +1,14 @@
+E:\Sushil Gupta\JaipurMetroAdmin\JaipurMetroAdmin.Commom\bin\Debug\netcoreapp3.1\JaipurMetroAdmin.Commom.exe
+E:\Sushil Gupta\JaipurMetroAdmin\JaipurMetroAdmin.Commom\bin\Debug\netcoreapp3.1\JaipurMetroAdmin.Commom.deps.json
+E:\Sushil Gupta\JaipurMetroAdmin\JaipurMetroAdmin.Commom\bin\Debug\netcoreapp3.1\JaipurMetroAdmin.Commom.runtimeconfig.json
+E:\Sushil Gupta\JaipurMetroAdmin\JaipurMetroAdmin.Commom\bin\Debug\netcoreapp3.1\JaipurMetroAdmin.Commom.runtimeconfig.dev.json
+E:\Sushil Gupta\JaipurMetroAdmin\JaipurMetroAdmin.Commom\bin\Debug\netcoreapp3.1\JaipurMetroAdmin.Commom.dll
+E:\Sushil Gupta\JaipurMetroAdmin\JaipurMetroAdmin.Commom\bin\Debug\netcoreapp3.1\JaipurMetroAdmin.Commom.pdb
+E:\Sushil Gupta\JaipurMetroAdmin\JaipurMetroAdmin.Commom\obj\Debug\netcoreapp3.1\JaipurMetroAdmin.Commom.GeneratedMSBuildEditorConfig.editorconfig
+E:\Sushil Gupta\JaipurMetroAdmin\JaipurMetroAdmin.Commom\obj\Debug\netcoreapp3.1\JaipurMetroAdmin.Commom.AssemblyInfoInputs.cache
+E:\Sushil Gupta\JaipurMetroAdmin\JaipurMetroAdmin.Commom\obj\Debug\netcoreapp3.1\JaipurMetroAdmin.Commom.AssemblyInfo.cs
+E:\Sushil Gupta\JaipurMetroAdmin\JaipurMetroAdmin.Commom\obj\Debug\netcoreapp3.1\JaipurMetroAdmin.Commom.csproj.CoreCompileInputs.cache
+E:\Sushil Gupta\JaipurMetroAdmin\JaipurMetroAdmin.Commom\obj\Debug\netcoreapp3.1\JaipurMetroAdmin.Commom.dll
+E:\Sushil Gupta\JaipurMetroAdmin\JaipurMetroAdmin.Commom\obj\Debug\netcoreapp3.1\JaipurMetroAdmin.Commom.pdb
+E:\Sushil Gupta\JaipurMetroAdmin\JaipurMetroAdmin.Commom\obj\Debug\netcoreapp3.1\JaipurMetroAdmin.Commom.genruntimeconfig.cache
+E:\Sushil Gupta\JaipurMetroAdmin\JaipurMetroAdmin.Commom\obj\Debug\netcoreapp3.1\JaipurMetroAdmin.Commom.csproj.AssemblyReference.cache

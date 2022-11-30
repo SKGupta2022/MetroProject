@@ -1,0 +1,148 @@
+﻿<!-- Main content -->
+<link href="~/css/dataTables.bootstrap4.css" rel="stylesheet" />
+<link href="~/css/responsive.bootstrap4.css" rel="stylesheet" />
+<link href="~/css/buttons.bootstrap4.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="wrapper">
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper">
+        <!-- Content Header (Page header) -->
+        <div class="content-header">
+            <div class="container-fluid">
+                <div class="row mb-2">
+                    <div class="col-sm-6">
+                        <h2 class="m-0">Role </h2>
+                    </div><!-- /.col -->
+                    <div class="col-sm-6">
+                        <ol class="breadcrumb float-sm-right">
+                            <a class="btn btn-info float-right" asp-controller="permission" asp-action="add" asp-area="">Add Permission</a>
+                        </ol>
+                    </div><!-- /.col -->
+                </div><!-- /.row -->
+            </div><!-- /.container-fluid -->
+        </div>
+        <!-- /.content-header -->
+        <!-- Main content -->
+        <section class="content">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <!-- /.card-header -->
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <!-- general form elements -->
+                                        <div class="card card-success">
+                                            <div class="card-header">
+                                                <h3 class="card-title">Display Role List</h3>
+                                            </div>
+                                            <div class="card">
+                                                <!-- /.card-header -->
+                                                <div class="card-body">
+
+                                                    <table class="table table-striped table-bordered table-hover table-responsive-lg" data-page-size="15" id="example" style="width:100%">
+                                                        <thead>
+                                                            <tr>
+                                                                <th style="width:10px">SrNo</th>
+                                                                <th>Role Name</th>
+                                                                <th>Action</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>1</td>
+                                                                <td>Super Admin</td>
+
+                                                                <td>
+                                                                    <i class="fa fa-pencil" aria-hidden="true"></i>
+                                                                    &nbsp;&nbsp;&nbsp;
+                                                                    <i class="fa fa-remove" aria-hidden="true"></i>
+                                                                    &nbsp;&nbsp;&nbsp;
+                                                                    <i class="fa fa-ban" aria-hidden="true"></i>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>2</td>
+                                                                <td>Admin</td>
+                                                                <td>
+                                                                    <i class="fa fa-pencil" aria-hidden="true"></i>
+                                                                    &nbsp;&nbsp;&nbsp;
+                                                                    <i class="fa fa-remove" aria-hidden="true"></i>
+                                                                    &nbsp;&nbsp;&nbsp;
+                                                                    <i class="fa fa-ban" aria-hidden="true"></i>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>3</td>
+                                                                <td>Programmer</td>
+                                                                <td>
+                                                                    <i class="fa fa-pencil" aria-hidden="true"></i>
+                                                                    &nbsp;&nbsp;&nbsp;
+                                                                    <i class="fa fa-remove" aria-hidden="true"></i>
+                                                                    &nbsp;&nbsp;&nbsp;
+                                                                    <i class="fa fa-ban" aria-hidden="true"></i>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>4</td>
+                                                                <td>Developer</td>
+                                                                <td>
+                                                                    <i class="fa fa-pencil" aria-hidden="true"></i>
+                                                                    &nbsp;&nbsp;&nbsp;
+                                                                    <i class="fa fa-remove" aria-hidden="true"></i>
+                                                                    &nbsp;&nbsp;&nbsp;
+                                                                    <i class="fa fa-ban" aria-hidden="true"></i>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                        <tfoot>
+
+                                                        </tfoot>
+                                                    </table>
+                                                </div>
+                                                <!-- /.card-body -->
+                                            </div>
+                                            <!-- /.card-header -->
+                                            <!-- form start -->
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /.row -->
+                            </div>
+
+                        </div>
+                        <!-- /.card -->
+                    </div>
+                    <!-- /.col -->
+                </div>
+                <!-- /.row -->
+
+
+            </div><!--/. container-fluid -->
+        </section>
+        <!-- /.content -->
+    </div>
+    <!-- /.content-wrapper -->
+</div>
+
+
+
+
+<!-- /.content -->
+
+<script src="~/css/jquery.js"></script>
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.js"></script>
+
+<script>
+    $(document).ready(function () {
+        var table = $('#example').DataTable();
+
+        $('#example tbody').on('click', 'tr', function () {
+            var data = table.row(this).data();
+            alert('You clicked on ' + data[0] + "'s row");
+        });
+    });
+</script>

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "w7cXmJQ1DxPJn0g6BqWuh0mIv7QdMGp736TolrKQ0amB83rViI0TxmODIaWmq85HsHJcABU5nVBfJWMpXaH2sw==",
+  "success": true,
+  "projectFilePath": "E:\\Sushil Gupta\\JaipurMetroAdmin\\JaipurMetroAdmin.Commom\\JaipurMetroAdmin.Commom.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jansoochna\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+  ],
+  "logs": []
+}

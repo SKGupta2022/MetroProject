@@ -1,0 +1,112 @@
+﻿@model JaipurMetroAdmin.Models.CardDetails
+
+<div class="hold-transition sidebar-mini">
+    <div class="wrapper">
+        <div class="content-wrapper">
+            <section class="content-header">
+                <div class="container-fluid">
+                    <div class="row mb-2">
+                        <div class="col-sm-6">
+                            <h1>Add New Card</h1>
+                        </div>
+                        <div class="col-sm-6">
+                            <ol class="breadcrumb float-sm-right">
+                                <a class="btn btn-info float-right" asp-controller="RechargeCard" asp-action="cardlst" asp-area="">Card List</a>
+                            </ol>
+                        </div>
+                    </div>
+                </div><!-- /.container-fluid -->
+            </section>
+            <section class="content">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            <!-- Main content -->
+                            <div class="invoice p-3 mb-3">
+                                <!-- title row -->
+                                <!-- info row -->
+                                <div class="row invoice-info">
+                                    <div class="col-sm-4 invoice-col">
+
+                                    </div>
+                                    <!-- /.col -->
+                                    <div class="col-sm-4 invoice-col">
+                                        <form asp-action="index">
+                                            <div class="form-group">
+                                                @Html.Raw(@ViewBag.Alert)
+                                            </div>
+
+                                            <div class="input-group mb-2">
+                                                <label asp-for="Mobile"> </label>
+                                            </div>
+                                            <div class="input-group mb-2">
+                                                <input asp-for="Mobile" type="text" class="form-control" placeholder="Enter Mobile Number" name="mobile" autocomplete="off">
+                                                <div class="input-group-append">
+                                                    <div class="input-group-text">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+
+
+                                            <div class="input-group mb-2">
+                                                <label asp-for="CardNo"> </label>
+                                            </div>
+
+                                            <div class="input-group mb-2">
+                                                <input asp-for="CardNo" type="text" class="form-control" placeholder="Enter Card Number" name="CardNo" autocomplete="off">
+
+                                                <div class="input-group-append">
+                                                    <div class="input-group-text">
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="input-group mb-2">
+                                                <span asp-validation-for="CardNo" class="text-danger"></span>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="form-group">
+                                                    <label asp-for="RetypeCardNo"></label>
+                                                    <input asp-for="RetypeCardNo" class="form-control" placeholder="Enter Confirm Password" autocomplete="off">
+                                                    <span asp-validation-for="RetypeCardNo" class="text-danger"></span>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <button type="submit" class="btn btn-success float-right">Save Card</button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <!-- /.col -->
+                                    <div class="col-sm-4 invoice-col">
+
+                                    </div>
+                                    <!-- /.col -->
+                                </div>
+                                <!-- /.row -->
+                                <!-- Table row -->
+                                <!-- /.row -->
+                                <!-- /.row -->
+                                <!-- this row will not appear when printing -->
+                                <div class="row no-print">
+                                    <div class="col-6">
+                                        @*<a class="btn btn-info float-left" style="color:white" onClick="history.go(-1); return false;">Go back</a>*@
+                                    </div>
+                                    <div class="col-6">
+                                        @*<a class="btn btn-success float-right" asp-area="" asp-controller="RechargeCard" asp-action="index">Save Card</a>*@
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /.invoice -->
+                        </div><!-- /.col -->
+                    </div><!-- /.row -->
+                </div><!-- /.container-fluid -->
+            </section>
+            <!-- /.content -->
+        </div>
+    </div>
+</div>
+
