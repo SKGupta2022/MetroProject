@@ -58,10 +58,10 @@ namespace JaipurMetroAdmin.Web.Controllers
             return View();
         }
 
-        public async Task<IActionResult> CustomerLst()
-        {
-            List<UserDetails> data = await _customerService.GetAllCustomer();
-            return View(data);
-        }
+        //public async Task<IActionResult> CustomerLst()
+        //{
+        //    List<UserDetails> data = await _customerService.GetAllCustomer();
+        //    return View(data);
+        //}
     }
 }
